@@ -12,9 +12,9 @@ steps:
   name: 'gcr.io/cloud-builders/docker'
   args: ['ps']
 
-- id: "Composer Update"
-  name: 'gcr.io/cloud-builders/docker'
-  args: ['exec','-t','app','composer','update']
+# - id: "Composer Update"
+#   name: 'gcr.io/cloud-builders/docker'
+#   args: ['exec','-t','app','composer','update']
 
 - id: "Rodando composer"
   name: 'gcr.io/cloud-builders/docker'
